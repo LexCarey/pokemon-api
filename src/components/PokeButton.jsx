@@ -15,7 +15,7 @@ const PokeButton = (props) => {
 
     return (
         <div>
-            <button className='btn btn-primary' onClick={pokemonFetch}>Show All Pokemon Names!</button>
+            <button className='btn btn-primary' onClick={pokemonFetch}>Fetch Pokemon</button>
         </div>
     )
 }
